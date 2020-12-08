@@ -4,8 +4,13 @@ h1 {margin-left: 1rem}
 
 /*Header **/
 header{
-    padding-left:100px;
+
     border-bottom:#ff9900 3px solid;
+   
+}
+
+{
+    border-bottom-color:#ff9900 3px solid;
 }
 /* end of Header */
 
@@ -28,7 +33,7 @@ header{
     padding: 0;
     display: none;
     list-style: none;
-    background-color:peachpuff;
+    background-color:gainsboro;
 }
 
 .main-nav ul.active {
@@ -74,11 +79,11 @@ ul.projects {
    display: flex;
    flex-wrap: wrap;
    list-style: none;
-   padding:0px;
-
+   padding:0px;  
+   
 }
 ul.projects li {
-   height: 50vh;
+   height: auto;
    /* https://www.w3schools.com/cssref/css_units.asp */
    flex-grow: 1;
     padding:.25rem;
@@ -88,9 +93,9 @@ ul.projects li:last-child {
 }
 
 ul.projects li img {
-  max-height: 100%;
-  min-width: 100%;
-  object-fit: cover;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
   vertical-align: bottom;
 }
 
@@ -98,7 +103,7 @@ ul.projects li img {
 
 /*end of css for project page */
 
-/*css for about page - slideshow */
+/*css for slideshow */
 #slideshow { 
     margin: 50px auto; 
     position: relative; 
@@ -125,7 +130,7 @@ ul.projects li img {
 
 
 
-/*end css for about page - slideshow */
+/*end css for slideshow */
 
 /*css for Contact page */
 form div {
@@ -157,7 +162,7 @@ form div textarea {
 /* footer styles */
 footer {
     text-align:center;
-    background-color: peachpuff;
+    background-color: gainsboro;
     padding-top:0.5rem;
     padding-bottom:0.5rem;
 }
@@ -200,5 +205,7 @@ footer {
     footer  {
         padding:50px;
     }
- 
+ {
+    border-top:#ff9900 3px solid;
+}
 }
