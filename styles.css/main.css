@@ -59,6 +59,8 @@ header{
 
 /* end of CSS rules for Navigation */
 
+/* CSS for Main */
+
 
 main{
     font-family: Arial, Helvetica, sans-serif;
@@ -68,9 +70,61 @@ main{
     padding-left:50px;
     padding-right:50px;
     margin:0;
+    text-align: center
+}
+
+p1{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    line-height:1.5;
+    margin:0; 
+    text-align: center
+
+        
 }
 
 
+
+
+m2{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    padding-bottom:50px;
+    margin:0; 
+    text-align: center
+}
+
+m3{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    line-height:1.5;
+    padding-bottom:50px;
+    padding-left:50px;
+    padding-right:50px;
+    margin:0; 
+    text-align: center
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    line-height:1.5;
+    margin:0; 
+    text-align: center
+     
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+    line-height:1.5;
+    margin:0; 
+    text-align: center
+    
+}
+
+/* end of CSS rules for Main */
 
 
 
@@ -81,12 +135,15 @@ ul.projects {
    list-style: none;
    padding:0px;  
    
+  
+
 }
 ul.projects li {
    height: auto;
    /* https://www.w3schools.com/cssref/css_units.asp */
    flex-grow: 1;
-    padding:.25rem;
+    padding:.25rem; 
+     
 }
 ul.projects li:last-child {
   flex-grow: 10;
@@ -97,6 +154,7 @@ ul.projects li img {
   max-width: 100%;
   object-fit: contain;
   vertical-align: bottom;
+   
 }
 
 
@@ -137,6 +195,9 @@ ul.projects li img {
 
 
 /*end css for slideshow */
+
+
+
 
 /*css for Contact page */
 form div {
